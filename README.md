@@ -35,24 +35,33 @@ An AI-powered attendance system that automates student attendance using real-tim
 
 2. **Install Dependencies:**
    Required packages include:
+   
     opencv-python
+   
     face-recognition
+   
     firebase-admin
+   
     Pillow
+   
     python-dotenv
    
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Configure Firebase:**
+4. **Configure Firebase:**
 
    Create a Firebase project at firebase.google.com.
+   
    Set up Realtime Database and Storage.
+   
    Download the serviceAccountKey.json file and place it in your project folder.
+   
    Update Firebase credentials in firebase_config.py.
+   
 
-4. **Run the Application:**
+6. **Run the Application:**
    ```bash
    python main.py
    ```
